@@ -2,13 +2,31 @@ body {
   background-color: rgb(66, 215, 244);
 }
 
+form {
+
+  padding-left: auto;
+  margin-top: 100px;
+}
+
+.botun {
+  margin-left: 17.5%;
+  width: 10%;
+  height: 10%;
+  max-height: 30px;
+  font-size: 100%;
+  overflow:hidden;
+  text-overflow: ellipsis;
+  line-height: 1.5;
+
+}
+
 
 #conteiner {
   height: 640px;
   width: 640px;
   margin: auto;
-  margin-top: 200px;
-  font-size: 0;
+  margin-top: 100px;
+  font-size: 0; /*mice vertikalni razmak izmedju div-ova*/
 
 }
 
@@ -16,13 +34,11 @@ body {
 
   height: 40px;
   width: 40px;
-  box-sizing: border-box;
-
-  /* kod za popravit razmake izmedju redova
-  zasad margin-top: -3px;
-  */
-
+  box-sizing: border-box; /*da ne treba preracunavat margine, border i sl.*/
   border: 1px solid black;
-  display: inline-block;
+  display: inline-block; /*da ih lipo nanize*/
   background-color: blue;
+}
+.visited {
+  background-color: black;
 }
