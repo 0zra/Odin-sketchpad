@@ -35,7 +35,7 @@ form {
   height: 40px;
   width: 40px;
   box-sizing: border-box; /*da ne treba preracunavat margine, border i sl.*/
-  border: 1px solid black;
+  border: 0px solid black;
   display: inline-block; /*da ih lipo nanize*/
-  background-color: blue;
+  background-color: white;
 }
